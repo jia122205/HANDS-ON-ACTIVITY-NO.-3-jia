@@ -82,12 +82,12 @@ export default function Index() {
     
       <View style={styles.card}>
         <View style={styles.header}>
-          <Text style={styles.name}>Mega Mawile</Text>
+          <Text style={styles.name}>Pikachu</Text>
           <Text style={styles.hp}>❤️ HP: 50</Text>
         </View>
 
         <Image
-          source={require("@/assets/images/Mega_Mawile-removebg-preview.png")}
+          source={require("@/assets/images/pikachu2.png")}
           style={styles.image}
           resizeMode="contain"
         />
@@ -98,11 +98,11 @@ export default function Index() {
 
         <Text style={styles.sectionLabel}>Moves:</Text>
         <Text style={styles.sectionText}>
-          Play Rough, Iron Head, Sucker Punch, Swords Dance
+          Thunderbolt, Wild Charge, Focus Blast, Slam.
         </Text>
 
         <Text style={styles.sectionLabel}>Weakness:</Text>
-        <Text style={styles.sectionText}>Ground, Fire</Text>
+        <Text style={styles.sectionText}>Ground-type </Text>
       </View>
 
 
